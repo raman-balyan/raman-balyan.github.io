@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+@import url("reset.css");
+@import url("responsive.css");
+@import url("themify-icons.css");
+
+/*============================================================================================
+
+CONTENTS :
+        1. General
+        2. Content Section
+        3. Image Section
+        4. Modal Section
+
+=============================================================================================*/
+
+
+/**********************************************************************************************
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+                                            1. General 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+***********************************************************************************************/
+#main-container-scroller{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+#loader{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: #5eb6de;
+}
+.no-space{
+    margin: auto 0;
+    padding-left: 0 ;
+    padding-right: 0;
+}
+#main-container{
+    min-height: 98.5vh
+}
+input[type="email"], input[type="text"] 
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 42px; 
+    margin-bottom: 10px;
+    padding: 0 20px; 
+}
+
+
+/**********************************************************************************************
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+                                            2. Content Section
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+***********************************************************************************************/
+#main-container .who-is{
+    color: #1abc9c;
+    font-size: 5em;
+    margin: 40px 0px 0px 0px;
+    line-height: 1em ;
+}
+#main-container .content .social-link{
+    margin: 12px;
+    padding: 8px;
+
+}
+#main-container .content .social-link a{
+    cursor: pointer;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+#main-container .content .content-list{
+    margin: 25px 0px 0px 49px;
+}
+#main-container .content .content-list ul{
+    list-style: disc outside;
+    line-height: 1.714285714;
+}
+#main-container .content p{
+    margin: 20px 0 0 21px;
+    line-height: 1.714285714;
+}
+#main-container .content p a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+
+/**********************************************************************************************
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+                                            3. Image Section
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+***********************************************************************************************/
+
+#main-container .right-image{
+    text-align: center;
+    margin: 30% 0px 0px 0px;
+    border-radius: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    transition: all 350ms ease-out;
+    -webkit-transition: all 350ms ease-out;
+}
+#main-container .right-image:hover{
+    -webkit-transform: rotate(359.9deg);
+    transform: rotate(359deg);
+}
+
+
+
+/**********************************************************************************************
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+                                            4. Modal Section
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+***********************************************************************************************/
+
+.cus-modal-title{
+    font-weight: 600;
+    letter-spacing: .5px;
+    font-size: 16px;
+    color: #666;
+    padding: 5px
+}
+.cus-input{
+    padding: 20px
+}
+.sub-button{
+    background-color: #1abc9c;
+    color: white;
+    font-weight: 600;
+}
+.sub-button:hover{
+    color: white
+}
+.modal-footer{
+     border: none ;
+}
+.cus-close{
+    margin: 0;
+    color: #666;
+    opacity: 1;
+    font-size: 22px;
+    padding-top: 5px !important;
+}
