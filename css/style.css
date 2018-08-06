@@ -110,11 +110,6 @@ input[type="email"], input[type="text"]
     transition: all 350ms ease-out;
     -webkit-transition: all 350ms ease-out;
 }
-#main-container .right-image:hover{
-    -webkit-transform: rotate(359.9deg);
-    transform: rotate(359deg);
-}
-
 
 
 /**********************************************************************************************
