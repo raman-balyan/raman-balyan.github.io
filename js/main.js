@@ -4,8 +4,7 @@
  $( window ).load(function() {	
   $('#loader').fadeOut(800);	
 });	
- /*----------------------------------|| Wow.js Initialization ||----------------------------------------------*/	
- new WOW().init();	
+	
  /*----------------------------------|| Flex Slider ||----------------------------------------------*/	
  $(window).load(function(){	
     $('.flexslider').flexslider({	
