@@ -5,25 +5,6 @@
   $('#loader').fadeOut(800);	
 });	
 	
- /*----------------------------------|| Flex Slider ||----------------------------------------------*/	
- $(window).load(function(){	
-    $('.flexslider').flexslider({	
-      animation: "slide",	
-      controlNav:true,	
-      easing:'easeInCubic',	
-      slideshowSpeed : 4000,	
-      animationSpeed : 1200,	
-      pauseOnAction:true,	
-      touch : true,	
-      keyboard : true,	
-      after: function(slider) {	
-          $('.flex-active-slide').find('.flex-caption').hide().delay(0).show(0).addClass('animated');	
-      },	
-      before: function(slider) {	
-          $('.flexslider').find('.flex-caption').fadeOut(200).removeClass('animated');	
-      }	
-     });	
-});	
  /*----------------------------------|| On Scroll Method ||----------------------------------------------*/	
  $(window).scroll(function() {	
     var $scroll_pos = 0;	
